@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personel portfolio website.">
+    <title>My Personel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="container navbar">
+            <a href="#home" class="logo">My<span>Portfolio</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>Shahzad</span></h1>
+                <h2>Web Developer</h2>
+                <p>
+                    I create modern, responsive and user-friendly websites
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-circle">Y</div>
+            </div>
+        </section>
+
+        <section id="about" class="section container">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+
+            <p class="about-text">
+                I am a passionate web developer who enjoys building
+                beautiful and functional websites. I love learning
+                new technologies, solving problems and turning ideas
+                into digital experiences.
+            </p>
+        </section>
+
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <p class="eyebrow">WHAT I KNOW</p>
+                <h2 class="section title">My Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">HTML5</div>
+                    <div class="skill-card">CSS3</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">React.js</div>
+                    <div class="skill-card">Node.js</div>
+                    <div class="skill-card">Python</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section container">
+            <p class="eyebrow">MY RECENT WORK</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive website showcasing my skills and work.</p>
+                    <a href="#contact">Learn more</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Task Managar</h3>
+                    <p>A simple javascript app tp organize daily tasks.</p>
+                    <a href="#contact">Learn More</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>Weather App</h3>
+                    <p>A weather dashboard interface for displaying forecasts.</p>
+                    <a href="#contact">Learn more</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container contact-content">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2 class="section-title">Have a project in mind?</h2>
+
+                <p>I'd love to hear about your ideas and opportunities.
+                </p>
+
+                <a class="btn" href="mailto:shaikh.shahzadmern@gmail.com">
+                    Send Me an Email
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Shahzad. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
